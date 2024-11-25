@@ -7,7 +7,14 @@ const UnitLoader = require('../../../../loader/garment-units-loader');
 export class List {
   
     @bindable selectedUnit;
-
+    controlOptions = {
+        label: {
+          length: 4,
+        },
+        control: {
+          length: 5,
+        },
+      };
     constructor(service,coreService) {
         this.service = service;
         this.coreService = coreService;

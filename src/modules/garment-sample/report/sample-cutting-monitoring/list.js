@@ -19,6 +19,15 @@ export class List {
 
         }
     }
+
+    controlOptions = {
+        label: {
+          length: 4,
+        },
+        control: {
+          length: 5,
+        },
+      };
     
     searching() {
         var info = {
